@@ -61,6 +61,7 @@
     <Content Include="index.html" />
     <Content Include="js\main.js" />
     <Content Include="js\recursion.js" />
+    <Content Include="js\reduce.js" />
     <Content Include="js\util.js" />
     <Content Include="node_modules\jquery\AUTHORS.txt" />
     <Content Include="node_modules\jquery\dist\jquery.js" />

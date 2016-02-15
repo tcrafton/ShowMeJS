@@ -18,6 +18,10 @@
         $("#with_recursion").on("click", (function () {
             return displayCode(RecursionExample.getTasksWithRecursion);
         }));
+
+        $("#reduce").on("click", (function () {
+            return displayCode(Reduce);
+        }));
     }
 
     publicAPI = {
