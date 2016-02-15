@@ -2,12 +2,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>ShowMeJS</title>
-
+    <link href="node_modules/prismjs/themes/prism-okaidia.css" rel="stylesheet" />     
+    <link href="css/style.css" rel="stylesheet" />
 
 </head>
 <body>
+    <div id="heading">
+        <h1>ShowMeJS</h1>
+    </div>
 
+    <div id="leftSide">
+        <a href="#" id="no_recursion">Without Recursion</a><br />
+        <a href="#" id="with_recursion">With Recursion</a>
+    </div>
 
+    <div id="rightSide">
+        <pre id="codeDisplay">
+        <code class="language-javascript"></code>
+        </pre>
+    </div>
+
+    <div id="source-code"></div>
+
+    <!-- Third Party Libraries-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/prismjs/prism.js"></script>
+
+    <!-- Custom Libraries-->
+    <script src="js/util.js"></script>
+    <script src="js/recursion.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,17 @@
+﻿#heading {
+    
+}
+
+#leftSide {
+    width: 15%;
+    float: left;
+}
+
+#rightSide {
+    width: 75%;
+    margin-left: 10%;
+}
+
+pre.line-numbers {
+    padding-left: 0;
+}
